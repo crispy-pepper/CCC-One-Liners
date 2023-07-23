@@ -11,6 +11,7 @@ Which Alien? - [J1.py](/one-liners/2011/J1.py)<br/>
 Who Has Seen The Wind - [J2.py](/one-liners/2011/J2.py)<br/>
 Sumac Sequences - [J3.py](/one-liners/2011/J3.py)
 ### Senior
+English or French? - [S1.py](/one-liners/2011/S1.py)
 ## 2012
 ### Junior
 Speed fines are not fine! - [J1.py](/one-liners/2012/J1.py)<br/>
