@@ -1,0 +1,2 @@
+d,i={'A':0,'B':0,'1':1},[' ']
+while i[0]!='7':i=input().split(' ')+['1','1'];print(d[i[1]]) if i[0]=='2' else 0;i2=d[i[2]] if i[2] in ('A','B') else int(i[2]);d[str(i2)]=1;d[i[1]]=(None, i2, d[i[1]], d[i[1]]+i2, d[i[1]]*i2, d[i[1]]-i2, d[i[1]]//i2,1)[int(i[0])]

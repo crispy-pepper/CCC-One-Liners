@@ -1,0 +1,1 @@
+n=int(input());print(sum([(n-x<=5 and x<=5)for x in range((n//2)+1)]))

@@ -1,0 +1,1 @@
+l = list(input());L, M = l.count("L"), l.count("M");xL,MiL,LiM,xM = [l[i] != 'L' for i in range(L)],[l[i] == 'M' for i in range(L)],[l[i] == 'L' for i in range(L,L+M)],[l[i] != 'M' for i in range(L,L+M)];print(sum(xL) + sum(xM) - min(sum(MiL), sum(LiM)))

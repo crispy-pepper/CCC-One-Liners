@@ -1,0 +1,1 @@
+n,votes = int(input()),input();a,b = votes.count("A"),votes.count("B");print(((a > b)*"A")+((a < b)*"B")+((a==b)*"Tie"))

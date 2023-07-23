@@ -1,0 +1,1 @@
+sss=input();print(max(list(filter(None,sum([[(1,x)if list(sss[y:y+x]) == list(reversed(sss[y:y+x])) else [] for y in range(len(sss)-x+1)] for x in reversed(range(1,len(sss)+1))],[]))))[1])    

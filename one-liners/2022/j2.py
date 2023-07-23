@@ -1,0 +1,1 @@
+n = int(input());c=sum([(((int(input()) * 5)-(int(input())*3))>40) for x in range(n)]);print([c,f'{c}+'][c==n])

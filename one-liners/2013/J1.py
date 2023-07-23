@@ -1,0 +1,1 @@
+c,c2 = int(input()),int(input());print(c2+(c2-c))

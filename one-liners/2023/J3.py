@@ -1,0 +1,1 @@
+n = int(input());d1,d2,d3,d4,d5,a =[],[],[],[],[],[input() for x in range(n)];[[d1.append((i[0] == 'Y')+0),d2.append((i[1] == 'Y')+0),d3.append((i[2] == 'Y')+0),d4.append((i[3] == 'Y')+0),d5.append((i[4] == 'Y')+0)] for i in a];print(*[i+1 for i, j in enumerate([d1,d2,d3,d4,d5]) if j == max([d1,d2,d3,d4,d5])],sep=',')

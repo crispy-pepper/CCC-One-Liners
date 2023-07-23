@@ -1,0 +1,1 @@
+for frsd in range(int(input())):i = input();print(' '.join([str(i.count(x))+' '+x for x in list(set(i))]))

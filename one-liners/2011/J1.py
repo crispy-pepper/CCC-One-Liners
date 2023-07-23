@@ -1,0 +1,1 @@
+a,e = int(input("How many antennas?\n")),int(input("How many eyes?\n"));print(((a>=3 and e<=4)*"TroyMartian\n")+((a<=6 and e>=2)*"VladSaturnian\n")+((a<=2 and e<=3)*"GraemeMercurian"))

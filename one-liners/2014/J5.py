@@ -1,0 +1,3 @@
+vfd,n1,n2,partners,l =int(input()),input().split(),input().split(),[],[];nil = lambda l,n:sum([1 if n in x else 0 for x in l])
+for x in range(vfd):l.append("bad") if (sorted([n1[x],n2[x]]) not in partners) and (n1[x] == n2[x] or nil(partners,n1[x]) or nil(partners,n1[x])) else 0;partners.append(sorted([n1[x],n2[x]]))if (sorted([n1[x],n2[x]]) not in partners) and (not(n1[x] == n2[x] or nil(partners,n1[x]) or nil(partners,n1[x]))) else 0
+print(["good","bad"]["bad"in l])

@@ -1,0 +1,1 @@
+d,c = int(input()),int(input());print([0,500][d>c]+(50*d)-(10*c))

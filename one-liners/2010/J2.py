@@ -1,0 +1,1 @@
+a,b,c,d,s = int(input()),int(input()),int(input()),int(input()),int(input());nn,bb = (((s//(a+b))*(a-b))+(s-(s//(a+b))*(a+b))*(s/(a+b)>=1))+(a*(s/(a+b)<1)),((((s//(c+d))*(c-d))+(s-(s//(c+d))*(c+d)))*(s/(a+b)>=1))+(c*(s/(a+b)<1));print(((nn>bb)*"Nikky")+((nn<bb)*"Byron")+((nn==bb)*"Tied"))

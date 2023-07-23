@@ -1,0 +1,1 @@
+p = int(input())*5 -400;print(p);print(1*(p<100)+(-1*(p>100)))

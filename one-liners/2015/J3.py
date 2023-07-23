@@ -1,0 +1,2 @@
+string,close = input(),lambda con:'abcdefghijklmnopqrstuvwxyz'[[0,4,8,14,20][[abs(x-'abcdefghijklmnopqrstuvwxyz'.index(con)) for x in [0,4,8,14,20]].index(min([abs(x-'abcdefghijklmnopqrstuvwxyz'.index(con)) for x in [0,4,8,14,20]]))]]
+for letter in string:print(letter,end='');print(close(letter)+('bcdfghjklmnpqrstvwxyzz'['bcdfghjklmnpqrstvwxyzz'.index(letter)+1]),end='') if letter in 'bcdfghjklmnpqrstvwxyzz' else 0

@@ -1,0 +1,1 @@
+(x,y),(x1,y1),e = map(int,input().split()),map(int,input().split()),int(input());print(['N','Y'][(e-(abs(x-x1)+abs(y-y1)))%2 == 0 and e >= abs(x-x1)+abs(y-y1)])

@@ -1,0 +1,1 @@
+limit,speed = int(input("Enter the speed limit: ")),int(input("Enter the recorded speed of the car: "));print(((limit>=speed)*"Congratulations, you are within the speed limit!")+((limit<speed)*("You are speeding and your fine is "+((1 <= speed-limit <= 20)*'$100')+((21 <= speed-limit <= 30)*'$270')+((31 <= speed-limit)*'$500')+'.')))

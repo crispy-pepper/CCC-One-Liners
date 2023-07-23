@@ -1,0 +1,1 @@
+y=lambda letter,shift:"ABCDEFGHIJKLMNOPQRSTUVWXYZ"["ABCDEFGHIJKLMNOPQRSTUVWXYZ".find(letter)-shift];s,text = int(input()),input();print(''.join([y(text[x-1],(3*x) + s) for x in range(1,len(text)+1)]))    

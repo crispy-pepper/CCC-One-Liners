@@ -1,0 +1,1 @@
+n,t,y = int(input()),input(),input();print(sum([(t[i]==y[i]=='C') for i in range(n)]))

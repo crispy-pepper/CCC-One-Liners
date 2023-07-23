@@ -1,0 +1,1 @@
+str,str2 = input(),input();print(["no","yes"][sum([str2[-(x+1):]+str2[:-(x+1)] in str for x in range(len(str2))])>=1]) 

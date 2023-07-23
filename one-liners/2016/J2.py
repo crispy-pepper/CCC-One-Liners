@@ -1,0 +1,1 @@
+l,sc = [list(map(int,input().split())),list(map(int,input().split())),list(map(int,input().split())),list(map(int,input().split()))],lambda s,i:s[0][i]+s[1][i]+s[2][i]+s[3][i];print(["not magic", "magic"][(sum(l[0])==sum(l[1])==sum(l[2])==sum(l[3]))and(sc(l,0)==sc(l,1)==sc(l,2)==sc(l,3))])

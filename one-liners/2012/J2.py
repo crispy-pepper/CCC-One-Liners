@@ -1,0 +1,1 @@
+a,b,c,d = int(input()),int(input()),int(input()),int(input());print(((a==b==c==d)*"Fish At Constant Depth")+(( a-b > 0 and b-c > 0 and c-d > 0)*"Fish Diving")+((a-b < 0 and b-c < 0 and c-d < 0)*"Fish Rising")+((not(a-b < 0 and b-c < 0 and c-d < 0) and not(a-b > 0 and b-c > 0 and c-d > 0) and not(a==b==c==d))*"No Fish"))

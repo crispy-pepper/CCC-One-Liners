@@ -1,0 +1,1 @@
+i,n,d,p = int(input()),int(input()),sorted(list(map(int,input().split()))),sorted(list(map(int,input().split())));p = [p,list(reversed(p))][i!=1];print(sum([max(d[x],p[x]) for x in range(n)]))

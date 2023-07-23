@@ -1,0 +1,1 @@
+n,a,b=[int(input()),input().split(),input().split()];print(((a.count('1')+b.count('1'))*3)-((sum([(b[x] == '1' and b[x+1] == '1')+(a[x] == '1' and a[x+1] == '1')+(x%2 == 0 and a[x] =='1' and b[x] == '1') for x in range(n-1)],((n-1)%2 == 0 and a[n-1] =='1' and b[n-1] == '1')))*2))

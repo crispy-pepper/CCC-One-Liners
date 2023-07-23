@@ -1,0 +1,1 @@
+a1,a2,a3 = int(input()),int(input()),int(input());s = len(set([a1,a2,a3]));print(((a1 + a2 + a3 != 180)*"Error")+((a1 + a2 + a3 == 180)*(((s==2)*"Isosceles")+((s==1)*"Equilateral")+((s==3)*"Scalene"))))

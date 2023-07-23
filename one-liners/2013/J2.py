@@ -1,0 +1,1 @@
+print(["YES","NO"]["NO" in ["NO" if l not in ('I', 'O', 'S', 'H', 'Z', 'X', 'N') else "YES" for l in input()]])

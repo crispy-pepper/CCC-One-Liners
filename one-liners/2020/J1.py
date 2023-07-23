@@ -1,0 +1,1 @@
+print(["sad","happy"][((1*int(input())) + (2*int(input())) + (3*int(input()))) >= 10])

@@ -1,0 +1,1 @@
+n = int(input());print(sum([n*(10**x) for x in range(1,int(input())+1)])+n)
