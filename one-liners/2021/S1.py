@@ -1,0 +1,1 @@
+n,hs,w = int(input()),input().split(),input().split();print(sum([(int(min((hs[x],hs[x+1])))*int(w[x]))+(((int((max((hs[x],hs[x+1]))))-int(min((hs[x],hs[x+1]))))*int(w[x]))/2) for x in range(n)]))
