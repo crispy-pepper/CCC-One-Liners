@@ -1,0 +1,1 @@
+n = int(input());l=[input() for x in range(n)];print(sum([(l[x]==input())+0 for x in range(n)]))
