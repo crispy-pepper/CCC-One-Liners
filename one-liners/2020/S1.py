@@ -1,0 +1,1 @@
+n = int(input());l = sorted([tuple(map(int,input().split()))for x in range(n)]);print(max([abs(l[x][1]-l[x+1][1])/abs(l[x][0]-l[x+1][0])for x in range(n-1)]))
