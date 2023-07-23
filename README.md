@@ -55,6 +55,8 @@ Quadrant Selection - [J1.py](/one-liners/2017/J1.py)<br/>
 Shifty Sum - [J2.py](/one-liners/2017/J2.py)<br/>
 Exactly Electrical - [J3.py](/one-liners/2017/J3.py)
 ### Senior
+Sum Game - [S1.py](/one-liners/2017/S1.py)<br/>
+High Tide, Low Tide - [S2.py](/one-liners/2017/S2.py)
 ## 2018
 ### Junior
 Telemarketer or not? - [J1.py](/one-liners/2018/J1.py)<br/>
