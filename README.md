@@ -75,6 +75,7 @@ Epidemiolog - [J2.py](/one-liners/2020/J2.py)<br/>
 Art - [J3.py](/one-liners/2020/J3.py)<br/>
 Cyclic Shifts - [J4.py](/one-liners/2020/J4.py)
 ### Senior
+Surmising a Sprinter's Speed - [S1.py](/one-liners/2020/S1.py)
 ## 2021
 ### Junior
 Boiling Water - [J1.py](/one-liners/2021/J1.py)<br/>
