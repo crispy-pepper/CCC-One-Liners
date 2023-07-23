@@ -1,0 +1,1 @@
+n = int(input());s=''.join([input()for x in range(n)]).lower();print(["English","French"][s.count('s') >= s.count('t')])
