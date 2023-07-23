@@ -1,0 +1,1 @@
+n,w,a=int(input()),list(map(int,input().split())),list(map(int,input().split()));asa,ws = [a[x] for x in range(n)],[w[x] for x in range(n)];print(max([x+1 if sum(ws[:x+1])==sum(asa[:x+1]) else 0 for x in range(n)]))
